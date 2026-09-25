@@ -1,0 +1,14 @@
+FINAL UPDATE - ALL STAFF ATTENDANCE + STUDENT DASHBOARD
+
+- Student dashboard changed to colorful 3x2 profile cards.
+- Removed student dashboard attendance percentage/count.
+- Removed Academic Year input from student Apply Leave form.
+- Leave save/update derive academic_year on the server from trusted batch + semester.
+- Staff attendance supports assigned faculty across IT/CSE/ECE classes.
+- Attendance dates use Asia/Kolkata.
+- Today and previous dates allowed.
+- Future dates blocked in both UI and server save endpoint.
+- Selected attendance date must match the timetable slot weekday.
+- Staff timetable loads latest approved timetable without IT/semester/year hardcoding.
+- Attendance history is session-level only.
+- Staff/HOD Attendance History includes Download XLS and Download PDF.
